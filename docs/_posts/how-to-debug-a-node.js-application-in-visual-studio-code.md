@@ -21,7 +21,7 @@ mkdir my-app && cd my-app
 ```
 npm init -y
 ```
-  The `-y` flag is used to skip all skip the questionnaire in the prompt. If everything went well, you should have a new `package.json` file in your project.
+  The `-y` flag is used to skip all the questionnaire in the prompt. If everything went well, you should have a new `package.json` file in your project.
  
  Now let's create an `src` folder & `app.js` file in it which will hold our application code like so:
  
