@@ -14,13 +14,13 @@ Here it's how to find all files in a `directory` using Node.js.
 
 - first, navigate to your project's `root` folder & create a file named `get-file-paths.js` by running the command `cd <enter/your/project/root/path/here> && touch get-file-paths.js`.
 - now, let's import [Node's built-in modules](https://www.w3schools.com/nodejs/ref_modules.asp) [`fs`](https://nodejs.org/api/fs.html) & [`path`](https://nodejs.org/api/path.html) like so:
-```
+```js
 const fs = require('fs');
 const path = require('path');
-```js
+```
 - Let's create a utility `function` to filter the future `array` of files `paths` by file's extension like so:
 
-```
+```js
 const filterFilesByExtension = ({ files, extension } = {}) => {
   return files.filter(file => file.includes(extension));
 };

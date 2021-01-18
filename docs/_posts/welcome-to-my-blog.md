@@ -1,6 +1,6 @@
 ---
 author: Manuel Abascal
-date: 2021-01-3
+date: 2021-01
 location: Montreal
 tag: 
   - frontmatter
