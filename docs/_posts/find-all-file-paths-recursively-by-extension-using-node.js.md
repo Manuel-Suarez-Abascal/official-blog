@@ -29,7 +29,7 @@ The `filterFilesByExtension` method will take the `files` & `extension` params. 
 
 The `function` combines the JavaScript built-in `array` methods [`filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) & [`includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes). The `filter()` method will go through each element on the provided `array` & return a new `array` with values coerced to `true` by the `includes` method.
 
-- Then, we're ready to create the `method` to get all files paths in a `directory` like so:
+- Then, we're ready to create the `method` to get all file paths in a `directory` like so:
 
 ```js
 const getAllFilesPath = (dirPath, arrayOfFiles) => {
@@ -56,7 +56,7 @@ Then, we'll loop through the `array` & check if each file describes a file syste
 - We're ready to call `getAllFilesPath` function & added the result to a `variable` named `allFilesPath`. This `variable` holds all the file paths in an `array` of `strings`
 
 ```js
-// array containing all files paths
+// array containing all file paths
 const allFilesPath = getAllFilesPath(`${__dirname}`); // _dirname is the current file's path
 ```
 
@@ -68,7 +68,7 @@ const allSpecFiles = filterFilesByExtension({
   extension: '.js', // file extension we wish to search for
 });
 
-console.log(allSpecFiles); // print all files paths by a specific extension
+console.log(allSpecFiles); // print all file paths by a specific extension
 ```
 
 Let's say we have a project with a file structure similar to the screenshot below:
