@@ -3,9 +3,9 @@ author: Manuel Abascal
 date: 2021-01-17
 location: Montreal
 tag:
-  - frontmatter
-  - Node.js
   - JavaScript
+  - Node.js
+  - Recursion
 ---
 
 # Find all files recursively in a directory with a given extension using Node.js
