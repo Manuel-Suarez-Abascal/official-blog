@@ -67,7 +67,7 @@ module.exports = readFileContent;
 
 Now, we just need to import it whenever we want to use in our codebase like this:
 
-```
+```js
 const readFileContent = require('<path-to-the-read-file.js>');
 
 const fileContent = readFileContent('<file-path-you-want-to-read>');
