@@ -14,11 +14,11 @@ tag:
 
 Continuing from where we left off, we have now a server running on port `5000`. Now, let's create the `routes` to perform [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations on a `posts` object.
 
-Let's create a folder from the project's `root` directory called `server`. Inside this folder, we'll create a folder named `routes` & a folder `api` inside of it. Finally, inside the `api` folder, we'll create the file `posts.js` which will hold all our `routes`.
+Inside the `server` folder, we'll create another folder named `routes` & a folder `api` inside of it. Finally, inside the `api` folder, we'll create the file `posts.js` which will hold all our `routes`.
 
 From the project's `root` directory, run the command:
 ```
-mkdir server && cd server && mkdir routes && cd routes && mkdir api && cd api && touch posts.js
+cd server && mkdir routes && cd routes && mkdir api && cd api && touch posts.js
 ```
 
 In the `posts.js` file, copy the following code snippet:
