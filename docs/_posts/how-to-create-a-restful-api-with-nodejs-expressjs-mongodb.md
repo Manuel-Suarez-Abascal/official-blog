@@ -85,4 +85,4 @@ This code snippet will import our dependency `packages`, set the `middlewares` &
 
 Congratulations!, we now have our server up & running. In the next part, we'll cover how to set a MongoDB database with [mLab](https://mlab.com/) & add routes to perform `CRUD operations`.
 
-- [Part 2](https://manuel-abascal.web.app//2021/02/07/how-to-create-a-restful-api-with-nodejs-expressjs-mongodb-2/)
+- [Part 2](https://manuel-abascal.web.app/2021/02/07/how-to-create-a-restful-api-with-nodejs-expressjs-mongodb-2/)
