@@ -42,8 +42,8 @@ module.exports = router;
 A quick breakdown of what we did! 
 
 - We imported `express` & the `mongodb` driver.
-- We created the router.
-- We defined a `GET` route & send an HTTP response to the browser with the message "Hello World".
+- We created the `router`.
+- We defined a `GET` route & send an `HTTP` response to the `browser` with the message "Hello World".
 - Finally, we exported the `router` module to be used elsewhere.
 
 Now, we need to import this `module` & set the route to the `posts` module in our app's entry point `index.js` file like so:
@@ -70,7 +70,7 @@ const cors = require('cors');
 const app = express();
 
 // Set middlewares
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json())
 app.use(cors());
 
 // imports posts module

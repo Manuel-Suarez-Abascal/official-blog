@@ -56,7 +56,11 @@ Now, let's open our `package.json` file in our code editor & add a `script` to r
 }
 ```
 
-We should now create our a `server` folder & an `index.js` file by running the command: `mkdir server && cd server && touch index.js`. Let's head to the newly, created `index.js` file (which it's going to be our app's entry point) in the code editor & type the following code snippet:
+We should now create our a `server` folder & an `index.js` file by running the command: 
+```
+mkdir server && cd server && touch index.js
+```` 
+Let's head to the newly, created `index.js` file (which it's going to be our app's entry point) in the code editor & type the following code snippet:
 
 ```js
 // import packages
@@ -67,7 +71,7 @@ const cors = require('cors');
 const app = express();
 
 // Set middlewares
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json())
 app.use(cors());
 
 // variable to hold the port number for our app to listen for
