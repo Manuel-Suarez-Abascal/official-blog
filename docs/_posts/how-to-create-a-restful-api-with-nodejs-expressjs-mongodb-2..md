@@ -97,3 +97,4 @@ Now, we're ready to start using a database. In the next article, we'll set up `M
 ### Links:
 
 - [Part 1](https://manuel-abascal.web.app/2021/01/31/how-to-create-a-restful-api-with-nodejs-expressjs-mongodb/)
+- [Part 3](https://manuel-abascal.web.app/2021/02/14/how-to-create-a-restful-api-with-nodejs-expressjs-mongodb-3/)
