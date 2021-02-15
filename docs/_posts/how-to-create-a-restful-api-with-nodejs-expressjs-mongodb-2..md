@@ -88,7 +88,7 @@ app.listen(port, () => {
 });
 ```
 
-Now, we can head to our `browser` & enter the following endpoint `http://localhost:5000/api/posts`  & we should get a `Hello World` message in the `browser` as showing in the screenshot below:
+Now you can run the command `npm run dev`. Then, we can head to our `browser` & enter the following endpoint `http://localhost:5000/api/posts`  & we should get a `Hello World` message in the `browser` as showing in the screenshot below:
 
 <img src="./../public/how-to-create-a-restful-api/hello-word-express.png" width="auto" height="auto">
 
