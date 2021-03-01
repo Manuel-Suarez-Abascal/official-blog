@@ -78,4 +78,4 @@ Finally, we created a `method` in the parent component named `handleClickinParen
 
 Keep in mind, however, this is a good solution if you want to change data from a child component from 1 or 2 levels deep. If you have many nested components you might find it useful to reach for [Vuex](https://vuex.vuejs.org/) to deal with state management in your app.
 
-You can find a working code sample playground [here]().
+You can find a code sample playground [here](https://codesandbox.io/s/custom-event-emitting-an-event-from-child-to-parent-component-x39p9?file=/src/App.vue).
