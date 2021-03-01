@@ -135,3 +135,4 @@ In the next tutorial, we'll add `POST`, `DELETE` & `UPDATE` routes!
 
 - [Part 1](https://manuel-abascal.web.app/2021/01/31/how-to-create-a-restful-api-with-nodejs-expressjs-mongodb/)
 - [Part 2](https://manuel-abascal.web.app/2021/02/07/how-to-create-a-restful-api-with-nodejs-expressjs-mongodb-2/)
+- [Part 4](https://manuel-abascal.web.app/2021/02/21/how-to-create-a-restful-api-with-nodejs-expressjs-mongodb-4/)

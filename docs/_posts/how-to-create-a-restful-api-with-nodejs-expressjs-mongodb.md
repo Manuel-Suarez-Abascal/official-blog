@@ -91,3 +91,4 @@ Congratulations!, we now have our server up & running. In the next part, we'll c
 
 - [Part 2](https://manuel-abascal.web.app/2021/02/07/how-to-create-a-restful-api-with-nodejs-expressjs-mongodb-2/)
 - [Part 3](https://manuel-abascal.web.app/2021/02/14/how-to-create-a-restful-api-with-nodejs-expressjs-mongodb-3/)
+- [Part 4](https://manuel-abascal.web.app/2021/02/21/how-to-create-a-restful-api-with-nodejs-expressjs-mongodb-4/)
